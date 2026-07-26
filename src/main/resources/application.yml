@@ -3,7 +3,7 @@ spring:
     name: cartoes
 
   datasource:
-    url: jdbc:h2:mem:cartoes; DB_CLOSE_ON_EXIT=false
+    url: jdbc:h2:mem:cartoes;
     driver-class-name: org.h2.Driver
     username: sa
     password:
