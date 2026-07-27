@@ -22,7 +22,7 @@ public class Cliente {
     private String email;
     private String telefone_whatsapp;
 
-    public int getMaioridade(){
+    public int idadeCalculada(){
         return Period.between(dataNascimento, LocalDate.now()).getYears();
     }
 }

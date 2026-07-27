@@ -25,7 +25,7 @@ import java.time.LocalDateTime;
 @Table(name = "cartoes_oferta")
 @NoArgsConstructor
 @AllArgsConstructor
-public class Cartoes {
+public class Cartao {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
